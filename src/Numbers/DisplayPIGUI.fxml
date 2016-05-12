@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="502.0" prefWidth="499.0" xmlns="http://javafx.com/javafx/8" stylesheets="@root.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DisplayPiGUIController">
+   <children>
+      <Pane layoutX="-125.0" layoutY="-110.0" prefHeight="502.0" prefWidth="499.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="numberOfDigitsTextField" layoutX="213.0" layoutY="91.0" />
+            <Text fx:id="displayDigitsText" layoutX="188.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="6.0" />
+            <Button layoutX="157.0" layoutY="318.0" mnemonicParsing="false" onAction="#handleButtonClick" text="Calculate" />
+            <Text layoutX="14.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the number of digits:" />
+            <Text layoutX="33.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calculates pi to the nth digit." />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

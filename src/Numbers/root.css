@@ -1,0 +1,9 @@
+/*
+ * Name: Stewart Wallace 
+ * Date: 5/8/2016
+ * Purpose: Colors the background white.
+ */
+
+.root{
+	-fx-background-color:'FFFFFF';
+}
